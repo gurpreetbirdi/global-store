@@ -3,9 +3,10 @@
 import { update } from './actions'
 import { updateText } from './reducers'
 import { globalStore } from './store'
+import Test from './components/Test'
 
 // export default Example;
 
 export {
-  update, updateText, globalStore,
+  update, updateText, globalStore, Test,
 };
